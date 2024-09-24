@@ -36,7 +36,7 @@
 
                         <div class="mt-2">
 
-                            <x-form-input name="salary" id="salary" placeholder="50,000" required
+                            <x-form-input type="number" name="salary" id="salary" placeholder="50,000" required
                                 value="{{ old('title') }}" />
 
                             <x-form-error name="salary" />
