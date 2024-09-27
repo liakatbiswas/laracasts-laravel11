@@ -5,7 +5,11 @@ export default {
         "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                laracasts: "rgb(50,138,241)",
+            },
+        },
     },
     plugins: [],
 };

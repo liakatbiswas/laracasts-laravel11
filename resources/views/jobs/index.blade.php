@@ -9,7 +9,7 @@
                 class="block px-4 py-6 border border-gray-200 hover:bg-gray-200 rounded-lg">
                 <div class="font-bold text-blue-500 text-sm">{{ $job->employer->name }}</div>
                 <div>
-                    <strong> {{ $job['title'] }}</strong> : {{ $job['salary'] }}
+                    <strong class="text-laracasts"> {{ $job['title'] }}</strong> : {{ $job['salary'] }}
                 </div>
             </a>
         @endforeach
